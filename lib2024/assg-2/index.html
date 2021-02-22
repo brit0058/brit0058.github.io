@@ -14,7 +14,7 @@
 			<h2>Employee List</h2>
 			<table style="border: 1px solid black"> 
 						<tr>
-						<th style="border: 1px solid black">
+						<th colspan="3"style="border: 1px solid black">
 							<b>Id</b>
 						</th>
 						<th style="border: 1px solid black">
@@ -50,13 +50,12 @@
 						<td style="border: 1px solid black">rob</td>
 						<td style="border: 1px solid black">Rob@fakemail.com</td>
 					</tr>
-					<tfoot style="text-align:center"> 
-						<tr> 
-							<td style="border: 1px solid black">All of the above are Divsion Heads</td>
+					
+					<tr> 
+						<td style="border: 1px solid black">All of the above are Divsion Heads</td>
 							<!-- I have fought with this table for so long, this is unfortunately the best I can do. -->
 							<!-- I think you said that it didn't matter too much, but I am still sorry that this is the best I can do.-->
-						</tr>
-					</tfoot>
+					</tr>
 				</tbody>
 			</table>
 		</section>
@@ -83,6 +82,7 @@
 				<figure>
 					<img src="img/hawk.jpg" alt="Image of a hawk" width="300" height="200">
 					<figcaption>This is a Hawk</figcaption>
+					<!-- Because the computer is pulling the images from the "img" folder, they show up on the page, otherwise they would show up as broken images.-->
 				</figure>
 			</article>
 		</section>
@@ -110,8 +110,8 @@
 		</section>
 		<section>
 			<article id="st-abbr" class="special-tags">
-				<p> <abbr title="Hypertext Markup Language">HTML</abbr></p>
-				<p> <abbr title="Cascading Style Sheets">CSS</abbr></p>
+				<p> This is an abbreviation tag<abbr title="Hypertext Markup Language">HTML</abbr></p>
+				<p> This is also an abbreviation tag, but for CSS... <abbr title="Cascading Style Sheets">CSS</abbr>... instead of for HTML </p>
 			</article>
 			<article class="special-tag" id="details">
 				<details>
@@ -128,7 +128,7 @@
 		
 	</main>
 	<footer id="footer">
-		
+
 	</footer>
 </body>
 </html>
