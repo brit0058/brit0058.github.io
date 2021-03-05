@@ -81,11 +81,12 @@
 						<option value="canada">Canada</option>
 						<option value="outside canada">Outside of Canada</option>
 						<!--Because of the previous question about provenices, I didn't want to add another countries really, because I felt that that would be odd, so I just left it as the choice between Canada and outside of Canada for ease and convience. That way it's still a drop down.-->
-					</select>
+						<!--placeholder="A1B 2C3"-->
+					</select> 
 				</div>
 				<div id="postal-code-container" class="form-elm">
 					<label for="postal code">Postal Code:</label>
-					<input type="text" name="postal code" id="postal code" minlength="6" maxlength="7" placeholder="A1B 2C3">
+					<input type="text" name="postal code" id="postal code" minlength="6" maxlength="7" pattern="[A-Za-z][0-9][A-Za-z] ?[0-9][A-Za-z][0-9]">
 					<!--Similar to the phone number section, I put the minlength at 6 because that is the number of characters in a Canadian postal code. I set the max length as 7 incase people would want to add the space that is traditionally in a postal code.-->
 				</div>
 				<h3>Your Hobbies</h3>
