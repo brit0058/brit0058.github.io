@@ -25,13 +25,13 @@
 					<label for= "pass">Password:</label>
 					<input type="password" name="pass" id="pass" required>
 				</div>
-				<div id="intro-container" class="form-elm">
+				<div id="text-container" class="form-elm">
 					<label for="intoduction">Introduction:</label>		
 					<textarea name="introduction" id="introduction" placeholder="Write a small introduction here!"></textarea>			
 				</div>
-				<div id="dte-container" class="form-elm">
-					<label for="dte">Date of Birth:</label>
-					<input type="date" name="dte" id="date">
+				<div id="date-container" class="form-elm">
+					<label for="date">Date of Birth:</label>
+					<input type="date" name="date" id="date">
 				</div>
 				<div id="tel-container" class="form-elm">
 					<label for="tel">Telephone Number:</label>
@@ -48,6 +48,7 @@
 				</div>
 				<h3>Your Address</h3>
 				<div id="address-container" class="form-elm">
+					<!--I couldn't find a reference for a short form term to put for an actual address (like "tel" for telephone) so I just -->
 					<label for="street-address">Street Address:</label>
 					<input type="text" name="street-address" id="street-address">
 				</div>
@@ -57,7 +58,7 @@
 				</div>
 				<div id="provence-drop-container" class="form-elm">
 					<label for="provence">Provence/Territory:</label>
-					<select name="provence" id="provence">
+					<select name="provence" id="provence" required>
 						<option value="alberta">Alberta</option>
 						<option value="british columbia">British Columbia</option>
 						<option value="manitoba">Manitoba</option>
