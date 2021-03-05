@@ -45,49 +45,51 @@
 					<input type="radio" name="gender" id="non-binary" value="non-binary"> Non-Binary <br>
 					<input type="radio" name="gender" id="would rather not state" value="would rather not state"> Would rather not state <br>
 				</div>
-				<h3>Your Address</h3>
-				<div id="address-container" class="form-elm">
-					<!--I couldn't find a reference for a short form term to put for an actual address (like "tel" for telephone) so I just -->
-					<label for="street-address">Street Address:</label>
-					<input type="text" name="street-address" id="street-address" placeholder="Street Number & Name">
-				</div>
-				<div id="city-container" class="form-elm">
-					<label for="city">City:</label>
-					<input type="text" name="city" id="city" placeholder="City" required>
-				</div>
-				<div id="province-drop-container" class="form-elm">
-					<label for="province">Province/Territory:</label>
-					<select name="province" id="province">
-						<option value="alberta">Alberta</option>
-						<option value="british columbia">British Columbia</option>
-						<option value="manitoba">Manitoba</option>
-						<option value="new brunswick">New Brunswick</option>
-						<option value="newfoundland and labrador">Newfoundland and Labrador</option>
-						<option value="northwest territories">Northwest Territories</option>
-						<option value="nova scotia">Nova Scotia</option>
-						<option value="nunavut">Nunavut</option>
-						<option value="ontario">Ontario</option>
-						<option value="prince edward island">Prince Edward Island</option>
-						<option value="quebec">Quebec</option>
-						<option value="saskatchewan">Sasketchewan</option>
-						<option value="yukon">Yukon</option>
-						<option value="other">Other</option>
-						<!--I added other in the event that the person filling this out is not from Canada. Due to the option later on for the drop down "Choose a Country" option.-->
-					</select>
-				</div>
-				<div id="country-drop-container" class="form-elm">
-					<label for="country">Country:</label>
-					<select name="country" id="country">
-						<option value="canada">Canada</option>
-						<option value="outside canada">Outside of Canada</option>
-						<!--Because of the previous question about provenices, I didn't want to add another countries really, because I felt that that would be odd, so I just left it as the choice between Canada and outside of Canada for ease and convience. That way it's still a drop down.-->
-						<!--placeholder="A1B 2C3"-->
-					</select> 
-				</div>
-				<div id="postal-code-container" class="form-elm">
-					<label for="postal code">Postal Code:</label>
-					<input type="text" name="postal code" id="postal code" minlength="6" maxlength="7" pattern="[A-Za-z][0-9][A-Za-z] ?[0-9][A-Za-z][0-9]">
-					<!--Similar to the phone number section, I put the minlength at 6 because that is the number of characters in a Canadian postal code. I set the max length as 7 incase people would want to add the space that is traditionally in a postal code.-->
+				<fieldset>
+					<h3>Your Address</h3>
+					<div id="address-container" class="form-elm">
+						<!--I couldn't find a reference for a short form term to put for an actual address (like "tel" for telephone) so I just -->
+						<label for="street-address">Street Address:</label>
+						<input type="text" name="street-address" id="street-address" placeholder="Street Number & Name">
+					</div>
+					<div id="city-container" class="form-elm">
+						<label for="city">City:</label>
+						<input type="text" name="city" id="city" placeholder="City" required>
+					</div>
+					<div id="province-drop-container" class="form-elm">
+						<label for="province">Province/Territory:</label>
+						<select name="province" id="province">
+							<option value="alberta">Alberta</option>
+							<option value="british columbia">British Columbia</option>
+							<option value="manitoba">Manitoba</option>
+							<option value="new brunswick">New Brunswick</option>
+							<option value="newfoundland and labrador">Newfoundland and Labrador</option>
+							<option value="northwest territories">Northwest Territories</option>
+							<option value="nova scotia">Nova Scotia</option>
+							<option value="nunavut">Nunavut</option>
+							<option value="ontario">Ontario</option>
+							<option value="prince edward island">Prince Edward Island</option>
+							<option value="quebec">Quebec</option>
+							<option value="saskatchewan">Sasketchewan</option>
+							<option value="yukon">Yukon</option>
+							<option value="other">Other</option>
+							<!--I added other in the event that the person filling this out is not from Canada. Due to the option later on for the drop down "Choose a Country" option.-->
+						</select>
+					</div>
+					<div id="country-drop-container" class="form-elm">
+						<label for="country">Country:</label>
+						<select name="country" id="country">
+							<option value="canada">Canada</option>
+							<option value="outside canada">Outside of Canada</option>
+							<!--Because of the previous question about provenices, I didn't want to add another countries really, because I felt that that would be odd, so I just left it as the choice between Canada and outside of Canada for ease and convience. That way it's still a drop down.-->
+							<!--placeholder="A1B 2C3"-->
+						</select> 
+					</div>
+					<div id="postal-code-container" class="form-elm">
+						<label for="postal code">Postal Code:</label>
+						<input type="text" name="postal code" id="postal code" minlength="6" maxlength="7" pattern="[A-Za-z][0-9][A-Za-z] ?[0-9][A-Za-z][0-9]">
+						<!--Similar to the phone number section, I put the minlength at 6 because that is the number of characters in a Canadian postal code. I set the max length as 7 incase people would want to add the space that is traditionally in a postal code.-->
+				</fieldset>
 				</div>
 				<h3>Your Hobbies</h3>
 				<div id="hobbies-container" class="form-elm">
