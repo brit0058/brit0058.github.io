@@ -60,20 +60,25 @@
 					<div id="province-drop-container" class="form-elm">
 						<label for="province">Province/Territory:</label>
 						<select name="province" id="province">
-							<option value="alberta">Alberta</option>
-							<option value="british columbia">British Columbia</option>
-							<option value="manitoba">Manitoba</option>
-							<option value="new brunswick">New Brunswick</option>
-							<option value="newfoundland and labrador">Newfoundland and Labrador</option>
-							<option value="northwest territories">Northwest Territories</option>
-							<option value="nova scotia">Nova Scotia</option>
-							<option value="nunavut">Nunavut</option>
-							<option value="ontario">Ontario</option>
-							<option value="prince edward island">Prince Edward Island</option>
-							<option value="quebec">Quebec</option>
-							<option value="saskatchewan">Sasketchewan</option>
-							<option value="yukon">Yukon</option>
-							<option value="other">Other</option>
+							<optgroup label="provinces">
+								<option value="alberta">Alberta</option>
+								<option value="british columbia">British Columbia</option>
+								<option value="manitoba">Manitoba</option>
+								<option value="new brunswick">New Brunswick</option>
+								<option value="newfoundland and labrador">Newfoundland and Labrador</option>
+								<option value="nova scotia">Nova Scotia</option>		
+								<option value="ontario">Ontario</option>
+								<option value="prince edward island">Prince Edward Island</option>
+								<option value="quebec">Quebec</option>
+								<option value="saskatchewan">Sasketchewan</option>
+								<option value="other">Other</option>
+							</optgroup>
+							<optgroup label="Territories">
+								<option value="northwest territories">Northwest Territories</option>
+								<option value="nunavut">Nunavut</option>
+								<option value="yukon">Yukon</option>
+
+							</optgroup>
 							<!--I added other in the event that the person filling this out is not from Canada. Due to the option later on for the drop down "Choose a Country" option.-->
 						</select>
 					</div>
@@ -82,7 +87,7 @@
 						<select name="country" id="country">
 							<option value="canada">Canada</option>
 							<option value="outside canada">Outside of Canada</option>
-							<!--Because of the previous question about provenices, I didn't want to add another countries really, because I felt that that would be odd, so I just left it as the choice between Canada and outside of Canada for ease and convience. That way it's still a drop down.-->
+							<!--Because of the previous question about provinces, I didn't want to add another countries really, because I felt that that would be odd, so I just left it as the choice between Canada and outside of Canada for ease and convience. That way it's still a drop down.-->
 							<!--placeholder="A1B 2C3"-->
 						</select> 
 					</div>
