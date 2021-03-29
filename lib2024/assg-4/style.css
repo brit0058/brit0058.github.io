@@ -18,3 +18,13 @@ header {
 	height: 233px;
 	padding: 20px;
 }
+h1 {
+	text-align: center; 
+}
+
+.box {
+	background-color: #6dcff6;
+	width: 164px
+	height: 64px;
+	padding: 20px;
+}
