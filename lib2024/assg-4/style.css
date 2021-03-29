@@ -1,0 +1,8 @@
+@charset "uft-8"
+head, body, footer {
+	width: 960px;
+	}
+
+body {
+	background-image: "img folder/playstation.png"
+}
