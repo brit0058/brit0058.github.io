@@ -2,7 +2,9 @@
 head, body, footer {
 	width: 960px;
 	}
-
+header.img {
+	width: 113px;height: 113px
+	}
 body {
-	background-image: "img folder/playstation.png"
-}
+	background-image: url("img folder/playstation.png");
+	}
