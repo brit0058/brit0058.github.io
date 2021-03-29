@@ -15,6 +15,12 @@ h1 {
 
 }
 
+.content {
+	float: left;
+	width: 614px
+	height: 420px;
+}
+
 .box {
 	width: 164px;
 	height: 64px;
@@ -30,6 +36,7 @@ h1 {
 	top: 20px
 	left:20px;
 	padding: 10px;
+	text-align: center;
 }
 
 .b1 {
