@@ -5,10 +5,11 @@ head, body, footer {
 
 header, footer {
 	background: rgb(124,197,118);
+	border: 0
 }
 h1 {
-	color: black
 	font-size: 17px;
+
 }
 
 header.img {
