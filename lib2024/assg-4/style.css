@@ -34,10 +34,15 @@ h1 {
 	left: 61px;
 	z-index: 1;
 
-
 }
 
+.b2 {
+	position: absolute;
+	top: 143px;
+	left: 286px;
+	z-index: 1;
 
+}
 
 header.img {
 	float: left;
