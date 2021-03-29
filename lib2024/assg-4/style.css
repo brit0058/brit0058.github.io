@@ -5,7 +5,7 @@ head, body, footer {
 
 header, footer {
 	background: rgb(124,197,118);
-	border: 0
+	background-size: cover;
 }
 h1 {
 	font-size: 17px;
