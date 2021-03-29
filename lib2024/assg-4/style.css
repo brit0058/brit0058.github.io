@@ -1,85 +1,15 @@
-@charset "uft-8";
-head, body, footer {
-	width: 960px;
-	}
+@font-face {font-family: Source Sans Pro; src:url(SourceSansPro-Regular.otf); }
+
+html {
+	font-family: "Source Sans Pro" 
+}
 
 header, footer {
-	background: rgb(124,197,118);
-	background-size: cover;
-}
-h1 {
-	font-size: 48px;
-	position: absolute;
-	left: 243px;
-	top: 45px;
-
+	background-color: rgb(124,197,118);
 }
 
-.content {
-	float: left;
-	width: 614px
-	height: 420px;
-}
-
-.box {
-	width: 164px;
-	height: 64px;
-	padding-top: 64px;
-	background: #6dcff6;
-	font-size: 24px;
-	border: 0;
-
-}
-
-.box {
-	position: relative;
-	top: 20px
-	left:20px;
-	padding: 10px;
-	text-align: center;
-}
-
-.b1 {
-	position: absolute;
-	top: 143px;
-	left: 61px;
-	z-index: 1;
-
-}
-
-.b2 {
-	position: absolute;
-	top: 143px;
-	left: 286px;
-	z-index: 1;
-
-}
-
-header.img {
-	float: left;
-	width: 113px;height: 113px
-	}
-
-.sidebar {
-	margin: 0;
-	padding: 0;
-	width: 303px;
-	height: 393px;
-	position: fixed;
-	float: right;
-	overflow: auto;
-}
-
-.sidebar-image {
-	width: 285px;
-	height: 212px;
-}
-
-body {
-	background-image: url("img folder/playstation-pattern.png");
-	}
-
-footer.a {
-	position: fixed;
-	float: right;
+header {
+	width: 960px;
+	height: 233px;
+	padding: 20px;
 }
