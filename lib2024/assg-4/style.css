@@ -9,6 +9,7 @@ header, footer {
 
 
 header.img {
+	float: left;
 	width: 113px;height: 113px
 	}
 
