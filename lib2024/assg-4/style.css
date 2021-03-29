@@ -6,7 +6,10 @@ head, body, footer {
 header, footer {
 	background: rgb(124,197,118);
 }
-
+h1 {
+	color: black
+	font-size: 17px;
+}
 
 header.img {
 	float: left;
