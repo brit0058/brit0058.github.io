@@ -4,8 +4,13 @@ html {
 	font-family: "Source Sans Pro" 
 }
 
+html, body {
+	width: 960px;
+}
+
 header, footer {
 	background-color: rgb(124,197,118);
+	background-size: auto;
 }
 
 header {
