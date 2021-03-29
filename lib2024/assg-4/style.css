@@ -71,3 +71,8 @@ sidebar-image {
 body {
 	background-image: url("img folder/playstation-pattern.png");
 	}
+
+footer.a {
+	position: fixed;
+	float: right;
+}
