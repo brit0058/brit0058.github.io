@@ -53,6 +53,20 @@ header.img {
 	width: 113px;height: 113px
 	}
 
+.sidebar {
+	margin: 0;
+	padding: 0;
+	width: 303px;
+	height: 393px;
+	position: fixed;
+	float: right;
+	overflow: auto;
+}
+
+sidebar-image {
+	width: 285px;
+	height: 212px;
+}
 
 body {
 	background-image: url("img folder/playstation-pattern.png");
