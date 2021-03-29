@@ -18,6 +18,11 @@ header {
 	height: 233px;
 	padding: 20px;
 }
+header.img {
+float: left;
+width: 113px;
+height: 113px;
+}
 h1 {
 	text-align: center; 
 }
