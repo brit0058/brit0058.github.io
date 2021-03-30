@@ -70,6 +70,10 @@ aside {
 	width: 30%;
 }
 
+h2.images {
+	float: left;
+}
+
 figure figcaption {
 	text-align: center;
 }
