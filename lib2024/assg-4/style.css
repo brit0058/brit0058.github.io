@@ -73,8 +73,13 @@ aside {
 	width: 30%;
 }
 
-h3{
+section {
 	float: left;
+}
+
+figure {
+	flex-basis: 187px;
+	margin: 5px;
 }
 
 figure figcaption {
