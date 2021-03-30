@@ -50,21 +50,19 @@ body {
 aside {
 	width: 303px;
 	height: 393px;
-	float: right;
-	top: 300px;
-	right: 20px;
 }
 
-.column-b {
-	float: center;
-	width: 50%
-	padding: 50px
+main {
+
+	float: left;
+	margin: 0 1.5%;
+	width: 63%
 }
 
-.row-b::after {
+aside {
 	float: right;
-	display: table;
-	content: "";
+	margin: 0 1.5%;
+	width: 30%;
 }
 
 .column-c {
