@@ -32,20 +32,13 @@ h1 {
 .box {
 	width: 164px;
 	height: 64px;
-	padding-top: 64px;
+	padding: 10px;
 	background: #6dcff6;
-	font-size: 24px;
+	text-align: center;
 	border: 0;
 
 }
-
-.box {
-	position: relative;
-	top: 20px
-	left:20px;
-	padding: 10px;
-	text-align: center;
-
+	
 
 body {
 	background-image: url("img folder/playstation-pattern.png");
