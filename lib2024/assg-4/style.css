@@ -32,14 +32,17 @@ h1 {
 	top: 45px; 
 }
 
+.box-container {
+	display: flex;
+}
+
 .box {
 	background-color: #6dcff6;
 	width: 164px;
 	height: 64px;
 	padding: 10px;
-}
-.box {
-	position: relative;
+	flex-basis: 164px;
+	margin: 5px;
 	text-align: center;
 	font-size: 24px;
 	border-radius: 15px;
