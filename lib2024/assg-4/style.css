@@ -56,7 +56,7 @@ aside {
 }
 
 .column-b {
-	float: left;
+	float: center;
 	width: 50%
 	padding: 50px
 }
