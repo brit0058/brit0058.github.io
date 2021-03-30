@@ -62,6 +62,7 @@ main.column {
 }
 
 aside.row {
+	float: right;
 	display: table;
 	content: "";
 }
