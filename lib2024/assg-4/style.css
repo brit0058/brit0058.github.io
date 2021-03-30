@@ -4,6 +4,10 @@ html {
 	font-family: "Source Sans Pro" 
 }
 
+html {
+	height: 1020px;
+}
+
 html, body, header {
 	width: 960px;
 }
