@@ -69,3 +69,7 @@ aside {
 	margin: 1.5% 1.5%;
 	width: 30%;
 }
+
+figcaption {
+	text-align: center;
+}
