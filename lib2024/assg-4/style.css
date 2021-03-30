@@ -40,6 +40,10 @@ h1 {
 	border-radius: 15px;
 }
 
+main {
+	width: 50%
+}
+
 body {
 	background-image: url("img folder/playstation-pattern.png");
 }
