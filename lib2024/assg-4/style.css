@@ -54,6 +54,8 @@ aside {
 	width: 303px;
 	height: 393px;
 	float: right;
+	top: 300px;
+	right: 20px;
 }
 
 .column {
