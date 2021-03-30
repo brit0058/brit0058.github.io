@@ -42,9 +42,12 @@ h1 {
 	height: 64px;
 	flex-basis: 164px;
 	margin: 5px;
+	border-radius: 15px;
+}
+
+.box {
 	text-align: center;
 	font-size: 24px;
-	border-radius: 15px;
 }
 
 
