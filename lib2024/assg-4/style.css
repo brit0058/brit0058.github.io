@@ -23,6 +23,7 @@ header {
 }
 header.img {
 float: left;
+display: inline;
 width: 113px;
 height: 113px;
 }
@@ -52,7 +53,7 @@ h1 {
 
 
 body {
-	background-image: url("img folder/playstation-pattern.png");
+	background-image: url("img folder/sakura.png");
 }
 
 aside {
