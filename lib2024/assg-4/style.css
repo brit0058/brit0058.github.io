@@ -1,8 +1,9 @@
-@font-face {font-family: Source Sans Pro; src:url(SourceSansPro-Regular.otf); }
+/* So much like my first comment in the HTML file, I want to sort of explain myself here. I struggled a lot with this coding. I would have a problem, find a solution,
+the problem would be fixed, but it would also undo 3 hours of previous work. Also I don't know why, but GitHub took FOREVER to update sometimes, like sometimes up to 10 minutes
+so I couldn't always check to see if what I updated worked or not. I didn't want to change something minor and then have to wait 10 minutes every time I updated, so sometimes
+I would be several updates in and then it would FINALLY update and there would be several issues that pop up. So that was the cause of a lot of frustration. */
 
-html {
-	font-family: "Source Sans Pro" 
-}
+/* I tried to upload a font type, but it didn't take for some reason */
 
 html {
 	height: 1020px;
@@ -28,6 +29,10 @@ footer {
 	text-align: left;
 }
 
+/* The footer was such a pain to work with, I can't figure out why, but it would not stay at the bottom of the page. The green rectangle would jump right below the header */
+/* The links would stay in the correct spot, but the copyright text would jump up below the aside.*/
+/* Having the footer in a fixed position was the only way I could get it to stay at the bottom*/
+
 header.img {
 	float: left;
 	width: 113px;
@@ -45,6 +50,8 @@ h1 {
 	left: 243px;
 	top: -45px; 
 }
+
+/* I don't know if the title is where it's suppose to be, but this is the closest that I could make it */
 
 .box-container {
 	float: center;
@@ -65,10 +72,13 @@ h1 {
 	font-size: 24px;
 }
 
+/* I could not for the life of me get the text in the boxes to shift into the center of the boxes. I tried everything that I could think of, but anytime the words would
+center, the boxes would shift position, which is confusing. I really don't know. */
 
 body {
 	background-image: url("img folder/playstation-pattern.png");
 }
+
 
 aside {
 	width: 303px;
@@ -109,7 +119,7 @@ h3{
 figcaption {
 	text-align: center;
 }
-
+/* I don't know why the text isn't 100% centered*/
 
 
 a {
