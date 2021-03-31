@@ -18,7 +18,8 @@ header, footer {
 
 footer {
 	height: 110px;
-	position: relative;
+	position: absolute;
+	bottom: 0
 }
 
 header {
@@ -36,8 +37,7 @@ header.img {
 
 h1 {
 	position: relative;
-	left: 243px;
-	top: 45px; 
+	left: 243px; 
 }
 
 .box-container {
@@ -60,7 +60,7 @@ h1 {
 
 
 body {
-	background-image: url("img folder/sakura.png");
+	background-image: url("img folder/playstation-pattern.png");
 }
 
 aside {
