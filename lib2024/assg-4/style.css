@@ -8,7 +8,7 @@ html {
 	height: 1020px;
 }
 
-html, body, header, footer {
+html, body, header {
 	width: 960px;
 }
 
@@ -62,7 +62,7 @@ h1 {
 
 
 body {
-	background-image: url("img folder/playstation-pattern.png");
+	background-image: url("img folder/sakura.png");
 }
 
 aside {
