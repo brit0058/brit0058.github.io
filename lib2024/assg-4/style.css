@@ -22,8 +22,8 @@ footer {
 
 header {
 	height: 233px;
-	padding: 5px;
 }
+
 header.img {
 float: left;
 width: 113px;
@@ -55,7 +55,7 @@ h1 {
 
 
 body {
-	background-image: url("img folder/playstation-pattern.png");
+	background-image: url("img folder/sakura.png");
 }
 
 aside {
