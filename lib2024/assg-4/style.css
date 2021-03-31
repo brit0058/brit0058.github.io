@@ -25,10 +25,14 @@ header {
 }
 
 header.img {
-float: left;
-width: 113px;
-height: 113px;
+	float: left;
+	width: 113px;
+	height: 113px;
+	position: relative;
+	z-index: -1;
 }
+
+
 h1 {
 	position: relative;
 	left: 243px;
@@ -55,7 +59,7 @@ h1 {
 
 
 body {
-	background-image: url("img folder/sakura.png");
+	background-image: url("img folder/playstation-pattern.png");
 }
 
 aside {
