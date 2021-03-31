@@ -12,13 +12,8 @@ html, body, header {
 	width: 960px;
 }
 
-header, footer {
+header {
 	background-color: rgb(124,197,118);
-}
-
-footer {
-	height: 110px;
-	position: absolute;
 }
 
 header {
@@ -62,7 +57,7 @@ h1 {
 
 
 body {
-	background-image: url("img folder/sakura.png");
+	background-image: url("img folder/playstation-pattern.png");
 }
 
 aside {
