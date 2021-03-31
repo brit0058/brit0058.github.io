@@ -39,6 +39,7 @@ h1 {
 }
 
 .box-container {
+	float: center;
 	display: flex;
 }
 
@@ -48,7 +49,7 @@ h1 {
 	height: 64px;
 	flex-basis: 164px;
 	margin: 5px;
-	border-radius: 15px;
+	border-radius: 5px;
 }
 
 .box {
@@ -58,7 +59,7 @@ h1 {
 
 
 body {
-	background-image: url("img folder/playstation-pattern.png");
+	background-image: url("img folder/sakura.png");
 }
 
 aside {
