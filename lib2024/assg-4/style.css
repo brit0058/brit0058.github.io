@@ -12,12 +12,17 @@ html, body, header {
 	width: 960px;
 }
 
-header {
+header, footer {
 	background-color: rgb(124,197,118);
 }
 
 header {
 	height: 233px;
+}
+
+footer {
+	width: 960px;
+	height: 110px;
 }
 
 header.img {
