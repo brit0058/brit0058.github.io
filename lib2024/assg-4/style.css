@@ -55,7 +55,7 @@ h1 {
 
 
 body {
-	background-image: url("img folder/playstation pattern.png");
+	background-image: url("img folder/playstation-pattern.png");
 }
 
 aside {
@@ -82,6 +82,18 @@ h3{
 	width: 100%;
 }
 
-footer.img {
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+a {
 	float: right;
 }
