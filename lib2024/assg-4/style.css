@@ -35,7 +35,7 @@ h1, header.img {
 h1 {
 	position: relative;
 	left: 243px;
-	top: 45px; 
+	top: -45px; 
 }
 
 .box-container {
@@ -48,7 +48,7 @@ h1 {
 	width: 164px;
 	height: 64px;
 	flex-basis: 164px;
-	margin: 5px;
+	margin: 15px;
 	border-radius: 5px;
 }
 
@@ -98,3 +98,6 @@ h3{
   display: table;
 }
 
+figcaption {
+	text-align: center;
+}
