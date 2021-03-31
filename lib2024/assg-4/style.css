@@ -34,7 +34,8 @@ h1, header.img {
 
 h1 {
 	position: relative;
-	left: 243px; 
+	left: 243px;
+	top: 45px; 
 }
 
 .box-container {
