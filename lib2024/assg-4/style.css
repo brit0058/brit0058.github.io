@@ -94,7 +94,7 @@ h3{
 
 .row::after {
   content: "";
-  clear: both;
+  clear: all;
   display: table;
 }
 
