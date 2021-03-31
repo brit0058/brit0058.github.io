@@ -12,7 +12,7 @@ html, body, header {
 	width: 960px;
 }
 
-header {
+header, footer {
 	background-color: rgb(124,197,118);
 }
 
@@ -20,7 +20,13 @@ header {
 	height: 233px;
 }
 
-
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: left;
+}
 
 header.img {
 	float: left;
@@ -104,12 +110,7 @@ figcaption {
 	text-align: center;
 }
 
-.big-box {
-	background-color: rgb(124,197,118);
-	width: 960px;
-	height: 110px;
-	text-align: left;
-}
+
 
 a {
 	float: right
