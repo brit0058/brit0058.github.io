@@ -29,7 +29,7 @@ height: 113px;
 h1 {
 	position: relative;
 	left: 243px;
-	top: 20px; 
+	top: 45px; 
 }
 
 .box-container {
@@ -42,7 +42,7 @@ h1 {
 	height: 64px;
 	flex-basis: 164px;
 	margin: 5px;
-	border-radius: 5px;
+	border-radius: 15px;
 }
 
 .box {
@@ -52,7 +52,7 @@ h1 {
 
 
 body {
-	background-image: url("img folder/sakura.png");
+	background-image: url("img folder/playstation-pattern.png");
 }
 
 aside {
@@ -73,13 +73,8 @@ aside {
 	width: 30%;
 }
 
-section {
+h3{
 	float: left;
-}
-
-figure {
-	flex-basis: 187px;
-	margin: 5px;
 }
 
 figure figcaption {
