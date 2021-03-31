@@ -18,7 +18,7 @@ header, footer {
 
 footer {
 	height: 110px;
-	position: fixed;
+	position: relative;
 }
 
 header {
