@@ -101,7 +101,8 @@
 			</p>
 			<p>
 				An inline style effects the tag that they are written in. <br>
-				<span style="color: #f92472">h1</span> <span style="color: #a6e22b">style</span>= <span style="color: #e7db60">"</span> <span style="color: #67d8ef"> color</span>:<span style="color: #67d8ef"> green  <span style="color: #e7db60">"</span><span style="color: #000000">Header One</span><span style="color: #f92472">/h1</span>
+				<span style="color: #f92472">h1</span> <span style="color: #a6e22b">style</span>= <span style="color: #e7db60">"</span> <span style="color: #67d8ef"> color</span>:<span style="color: #67d8ef"> green  <span style="color: #e7db60">"</span><span style="color: #000000">Header One</span><span style="color: #f92472">/h1</span><br>
+				<span style="color: green">Header One</span>
 
 			</p>
 		</li>
@@ -131,26 +132,49 @@
 		</li>
 		<li>
 			<p>
-				<b></b>
+				<b>Create CSS keyframes block called "spin" that rotates an element.</b>
 			</p>
 			<p>
-				
+				@keyframes spin {<br>
+				from {<br>
+				transform: rotate(0deg);<br>
+				}<br>
+				to {<br>
+				transform: rotate(360deg);<br>
+				}<br>
+				}
 			</p>
 		</li>
 		<li>
 			<p>
-				<b></b>
+				<b>Create CSS animation block to rotate an element that has the following properties:<br>
+				•	class "rotate-me":<br>
+				•	It rotates 5 times at intervals of 0.5s with "linear" transition using animation keyframes "spin"
+				</b>
 			</p>
 			<p>
-				
+				.rotate-me {<br>
+				animation: spin 0.5s linear 5;<br>
+				@keyframes spin {<br>
+				from {<br>
+				transform: rotate(0deg);<br>
+				to {<br>
+				transform: rotate(360deg);<br>
+				}<br>
+				}
+
 			</p>
 		</li>
 		<li>
 			<p>
-				<b></b>
+				<b>How would you include create an alert with string "I love JavaScript" using JavaScript?</b>
 			</p>
 			<p>
-				
+				<span style="color: #f92472">script</span><br>
+				<span style="color: #67d8ef">function</span> <span style="color: #a6e22b">myfunction</span>() { <br>
+				<span style="color: #67d8ef">alert</span>("I love JavaScript")<br>
+				}<br>
+				<span style="color: #f92472">/script</span>
 			</p>
 		</li>
 		<li>
