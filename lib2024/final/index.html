@@ -132,8 +132,9 @@
 			</div>
 			<div id="province-drop-container" class="form-elm">
 				<label for="province">Province</label>
-				<select name="province" id="province">
+				<select name="province" id="province" required>
 					<optgroup>
+						<option value="">Select Province</option>
 						<option value="AB">Alberta</option>
 						<option value="BC">British Columbia</option>
 						<option value="MB">Manitoba</option>
@@ -152,7 +153,7 @@
 			</div>
 			<div id="pc-container" class="form-elm">
 				<label for="pc">Postal Code</label>
-				<input type="text" name="pc" id="pc" maxlength="7" pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]">
+				<input type="text" name="pc" id="pc" maxlength="7" pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]" required>
 			</div>
 			<button type="submit">Submit</button>
 		</article>
@@ -192,11 +193,11 @@
 			</section>
 			<section class="col-footer follow-us">
 				<h3>Follow Us</h3>
-				<a href="https://www.facebook.com"></a>
+				<!-- <a href="https://www.facebook.com"></a>
 
 				<a href="https://www.youtube.com"></a>
 
-				<a href="https://www.twitter.com"></a>
+				<a href="https://www.twitter.com"></a> -->
 			</section>
 			<section class="col-footer address">
 				<h3>Address</h3>
