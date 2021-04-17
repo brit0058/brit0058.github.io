@@ -86,7 +86,10 @@ p {
 
 
 
-
+label {
+	width: 224px;
+	display: inline-block;
+}
 
 
 
