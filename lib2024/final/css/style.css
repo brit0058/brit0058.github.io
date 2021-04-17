@@ -62,10 +62,6 @@ table {
 	src: url(KaushanScript-Regular.otf);
 }
 
-@font-face {
-	font-family: ""
-}
-
 .col-main, .col-footer, img {
 	width: 100%;
 }
@@ -75,5 +71,5 @@ header {
 }
 
 .logo {
-	font-family: "KaushanScript-Regular";
+	font-family: "Bitter", sans-serif;
 }
