@@ -59,7 +59,10 @@ table, td, th {
 	clear: both;
 }
 
-
+.main-nav-container {
+	background-color: #7219ae;
+	
+}
 
 ul.main-nav-container {
 	overflow: hidden;
@@ -109,7 +112,7 @@ nav {
 
 
 footer {
-	
+
 }
 
 
