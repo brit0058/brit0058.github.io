@@ -8,7 +8,7 @@
 	
 	<header id="site-header">
 		<div class="logo">
-			My Logo (update)
+			My Logo
 		</div>
 		<nav class="main-nav-container desktop-nav">
 			<ul class="main-nav">
@@ -52,8 +52,8 @@
 			</nav>
 		</div>
 	</header>
-	<main>
-		<article>
+	<main class="main clearfix" id="main">
+		<article class="col-main site-content">
 			<section class="main-about">
 				<h2>About</h2>
 				<p>
@@ -65,8 +65,8 @@
 		<aside class="side-image">
 			<img src="img/forest-edited.jpg" alt="forest">
 		</aside>
-		<article class="schedule">
-			<table>
+		<article class="col-main site-content">
+			<table class="schedule">
 				<tr>
 					<th>Time</th>
 					<th>Monday</th>
@@ -110,7 +110,7 @@
 			</table>
 		</article>
 
-		<article class="profile-input">
+		<article class="col-main site-content" id="profile-input">
 			<h2>Edit Profile</h2>
 			<div id="name-container" class="form-elm">
 				<label for="name">Name:</label>
@@ -156,7 +156,7 @@
 			<button type="submit">Submit</button>
 		</article>
 
-		<article class="profile-info">
+		<article class="col-main site-content" id="profile-info">
 			<h2>Profile Info</h2>
 			<div id="results">
 				<span id="name_result"></span>
