@@ -54,4 +54,26 @@ table {
 	content: "";
 	display: table;
 	clear: both;
+}
 
+@font-face {
+
+	font-family: "KaushanScript-Regular";
+	src: url(KaushanScript-Regular.otf);
+}
+
+@font-face {
+	font-family: ""
+}
+
+.col-main, .col-footer, img {
+	width: 100%;
+}
+
+header {
+	background-color: #ffffff;
+}
+
+.logo {
+	font-family: "KaushanScript-Regular";
+}
