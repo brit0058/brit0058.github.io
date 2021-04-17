@@ -59,22 +59,62 @@ table, td, th {
 	clear: both;
 }
 
-@font-face {
 
-	font-family: "KaushanScript-Regular";
-	src: url(KaushanScript-Regular.otf);
+ul.main-nav-container {
+	overflow: hidden;
+	background-color: #72a9ae;
 }
 
-.col-main, .col-footer, img {
-	width: 100%;
+li.main-nav-container {
+	float: left;
 }
 
-header {
-	background-color: #ffffff;
+li. a.main-nav-container {
+	display: block;
+	color: #000000;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
 }
+
+li, a:hover {
+	background-color: #547f82; 
+}
+
+
+
+
+nav {
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .logo {
 	font-family: "Bitter", serif;
 	color: #72a9ae;
 	font-size: 26px
+	background-color: #ffffff;
+	float: left;
+	padding: 10px 0;
 }
+
