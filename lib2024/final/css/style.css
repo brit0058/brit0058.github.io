@@ -69,7 +69,7 @@ li.main-nav-container {
 	float: left;
 }
 
-li. a.main-nav-container {
+li.main-nav-container, a.main-nav-container {
 	display: block;
 	color: #000000;
 	text-align: center;
@@ -77,16 +77,9 @@ li. a.main-nav-container {
 	text-decoration: none;
 }
 
-li, a:hover {
-	background-color: #547f82; 
-}
 
 
 
-
-nav {
-	float: right;
-}
 
 
 
