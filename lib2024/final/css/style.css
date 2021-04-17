@@ -91,10 +91,15 @@ label {
 	display: inline-block;
 }
 
+img {
+	float: right;
+	
+}
 
 
-
-
+nav {
+	float: 
+}
 
 
 
@@ -114,5 +119,6 @@ label {
 	background-color: #ffffff;
 	float: left;
 	padding: 10px 0;
+	display: block;
 }
 
