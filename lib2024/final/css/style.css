@@ -49,6 +49,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+table, td, th {
+	border: 1px solid black;
+}
 
 .clearfix:after {
 	content: "";
@@ -71,6 +74,6 @@ header {
 }
 
 .logo {
-	font-family: "Bitter", sans-serif;
+	font-family: "Bitter", serif;
 	color: #72a9ae;
 }
