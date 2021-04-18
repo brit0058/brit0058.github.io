@@ -73,7 +73,7 @@ tr.day-cells {
 	background-color: white;
 }
 
-tr.class-cells:nth-child(even) {
+.class-cells:nth-child(even) {
 	background-color: #efefef
 	height: 20px;
 }
