@@ -146,10 +146,14 @@ nav {
 
 
 .col-footer {
-	background-color: #454545
+	background-color: #454545;
 }
 
+aside#profile-info {
+	float: right;
+	margin: 1.5% 1.5%;
 
+}
 
 
 
