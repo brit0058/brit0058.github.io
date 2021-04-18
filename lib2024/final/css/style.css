@@ -76,3 +76,35 @@ header {
 	display: block;
 }
 
+.main-nav-container {
+	background-color: #72a9ae;
+	float: left;
+	clear: both;
+
+
+}
+
+ul.main-nav {
+	overflow: hidden;
+	top: 107px;
+	width: 100%;
+	padding: 0;
+	background-color: #72a9ae;
+}
+
+li.nav-links {
+	float: left;
+}
+
+li.nav-links, a.link-links {
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+
+
+a {
+	text-decoration: none;
+}
