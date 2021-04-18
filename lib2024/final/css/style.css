@@ -74,7 +74,12 @@ tr.day-cells {
 }
 
 .class-cells:nth-child(odd) {
-	background-color: #efefef
+	background-color: #efefef;
+	height: 20px;
+}
+
+.class-cells:nth-child(even) {
+	background-color: none;
 	height: 20px;
 }
 
