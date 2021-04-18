@@ -116,3 +116,10 @@ h2 {
 	font-family:"Bitter", serif;
 	height: 40px;
 }
+
+p#main {
+	float: left;
+	display: inline-block;
+	top: 159px;
+	width: 60%;
+}
