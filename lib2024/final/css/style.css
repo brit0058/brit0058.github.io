@@ -117,7 +117,7 @@ h2 {
 	height: 40px;
 }
 
-p#main {
+p.main {
 	float: left;
 	display: inline-block;
 	top: 159px;
