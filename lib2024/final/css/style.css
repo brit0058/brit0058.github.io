@@ -75,12 +75,12 @@ tr.day-cells {
 
 .class-cells:nth-child(even) {
 	background-color: #efefef;
-	height: 20px;
+	height: 30px;
 }
 
 .class-cells:nth-child(odd) {
 	background-color: none;
-	height: 20px;
+	height: 30px;
 }
 
 table, td, th {
