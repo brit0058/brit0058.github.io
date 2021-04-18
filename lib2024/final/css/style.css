@@ -45,6 +45,13 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -57,7 +64,8 @@ th {
 	width: 80px;
 	height: 20px;
 	text-align: center;
-	font-family: arial, sans-serif;
+	color: #72a9ae;
+	font-family:"Bitter", serif;
 	padding: 8px;
 }
 
@@ -74,10 +82,9 @@ table, td, th {
 	border: 1px solid black;
 }
 
-.clearfix:after {
-	content: "";
-	display: table;
-	clear: both;
+h2 {
+	color: #72a9ae;
+	font-family:"Bitter", serif;
 }
 
 .main-nav-container {
