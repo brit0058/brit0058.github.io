@@ -138,7 +138,11 @@ p.main {
 	width: 60%;
 }
 
-
+.boxed {
+	border: 1px;
+	background-color: white;
+	
+}
 
 label {
 	width: 224px;
