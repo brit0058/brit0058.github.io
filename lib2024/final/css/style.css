@@ -98,16 +98,16 @@ h2 {
 
 }
 
-ul.main-nav-container {
+ul.main-nav {
 	overflow: hidden;
 	background-color: #72a9ae;
 }
 
-li.main-nav-container {
+li.nav-links {
 	float: left;
 }
 
-li.main-nav-container, a.main-nav-container {
+li.nav-links, a.link-links {
 	display: block;
 	text-align: center;
 	padding: 14px 16px;
