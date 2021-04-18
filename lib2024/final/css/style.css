@@ -52,7 +52,7 @@ q:before, q:after {
 	clear: both;
 }
 
-header.site-header {
+header {
 	height: 107px;
 	width: 100%;
 	top: 0;
