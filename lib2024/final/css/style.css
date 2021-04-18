@@ -103,7 +103,8 @@ li.nav-links, a.link-links {
 	padding: 14px 16px;
 	text-decoration: none;
 	color: black;
-	font-size: "Bitter", serif;
+	font-family: "Bitter", serif;
+	font-size: 30px
 }
 
 
