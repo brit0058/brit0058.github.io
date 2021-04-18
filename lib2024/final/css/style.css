@@ -104,6 +104,7 @@ h2 {
 ul.main-nav {
 	overflow: hidden;
 	top: 107px;
+	width: 100%;
 	padding: 0;
 	background-color: #72a9ae;
 }
@@ -121,7 +122,7 @@ li.nav-links, a.link-links {
 
 header.site-header {
 	height: 107px;
-	width: 100%
+	width: 100%;
 	top: 0;
 	background-color: white;
 
