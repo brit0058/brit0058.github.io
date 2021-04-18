@@ -89,7 +89,7 @@ header {
 p {
 	float: left;
 	margin: 0 1.5%;
-	width: 65%;
+	width: 60%;
 }
 
 
@@ -111,7 +111,7 @@ nav {
 }
 
 
-footer {
+.col-footer {
 	background-color: #454545
 }
 
