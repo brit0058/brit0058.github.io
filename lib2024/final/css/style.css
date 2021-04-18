@@ -100,7 +100,7 @@ h2 {
 
 ul.main-nav {
 	overflow: hidden;
-	margin: 0;
+	top: 107px;
 	padding: 0;
 	background-color: #72a9ae;
 }
