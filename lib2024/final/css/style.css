@@ -82,7 +82,6 @@ header {
 	clear: both;
 	width: 100%;
 
-
 }
 
 ul.main-nav {
@@ -117,7 +116,7 @@ h2 {
 	height: 40px;
 }
 
-p.main {
+p.text-main {
 	float: left;
 	display: inline-block;
 	width: 60%;
