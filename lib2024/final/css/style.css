@@ -73,12 +73,12 @@ tr.day-cells {
 	background-color: white;
 }
 
-.class-cells:nth-child(odd) {
+.class-cells:nth-child(even) {
 	background-color: #efefef;
 	height: 20px;
 }
 
-.class-cells:nth-child(even) {
+.class-cells:nth-child(odd) {
 	background-color: none;
 	height: 20px;
 }
