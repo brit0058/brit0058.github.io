@@ -118,6 +118,7 @@ li.nav-links, a.link-links {
 
 header.site-header {
 	height: 107px;
+	width: 100%;
 	top: 0;
 	background-color: white;
 }
