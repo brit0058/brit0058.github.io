@@ -97,6 +97,7 @@ h2 {
 	background-color: #72a9ae;
 	float: left;
 	clear: both;
+	position: absolute;
 
 
 }
@@ -123,6 +124,7 @@ li.nav-links, a.link-links {
 header.site-header {
 	height: 107px;
 	width: 100%;
+	position: absolute;
 	top: 0;
 	background-color: white;
 
@@ -133,6 +135,8 @@ a {
 }
 
 p.main {
+	position: absolute;
+	top: 158px;
 	float: left;
 	margin: 0 2.5%;
 	width: 60%;
@@ -141,7 +145,7 @@ p.main {
 .boxed {
 	border: 1px;
 	background-color: white;
-	
+
 }
 
 label {
