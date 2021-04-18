@@ -52,6 +52,11 @@ q:before, q:after {
 	clear: both;
 }
 
+html {
+	width: 100%;
+}
+
+
 header {
 	height: 107px;
 	width: 100%;
