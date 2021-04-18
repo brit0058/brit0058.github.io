@@ -132,7 +132,7 @@ a {
 	text-decoration: none;
 }
 
-p {
+p.main {
 	float: left;
 	margin: 0 2.5%;
 	width: 60%;
