@@ -102,9 +102,16 @@ li.nav-links, a.link-links {
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
+	color: black;
 }
 
 
 a {
 	text-decoration: none;
+}
+
+h2 {
+	color: #72a9ae;
+	font-family:"Bitter", serif;
+	height: 40px;
 }
