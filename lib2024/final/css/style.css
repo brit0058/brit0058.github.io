@@ -95,6 +95,9 @@ h2 {
 
 .main-nav-container {
 	background-color: #72a9ae;
+	float: left;
+	clear: both;
+
 
 }
 
@@ -121,6 +124,7 @@ header.site-header {
 	width: 100%
 	top: 0;
 	background-color: white;
+
 }
 
 
