@@ -59,10 +59,13 @@ th {
 	text-align: center;
 	font-family: arial, sans-serif;
 	padding: 8px;
+}
+
+tr.day-cells {
 	background-color: white;
 }
 
-tr:nth-child(even) {
+tr.class-cells:nth-child(odd) {
 	background-color: #efefef
 }
 
