@@ -118,6 +118,7 @@ li.nav-links, a.link-links {
 
 header {
 	height: 107px;
+	top: 0;
 	background-color: white;
 }
 
