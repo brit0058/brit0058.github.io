@@ -140,34 +140,6 @@ img {
 }
 
 
-nav {
-	clear: both;
-	display: none;
-}
-
-.desktop-nav ul {
-	width: 100%;
-}
-
-.desktop-nav li {
-	width: 25%;
-	padding: 10px;
-	float: left;
-	position: relative;
-}
-
-.desktop-nav li:first-child {
-	border-radius: 0 10px 10px 0;
-}
-
-.desktop-nav li:last-child {
-	border-radius: 0 10px 10px 0;
-}
-
-.desktop-nav li:first-child a {
-	border-left: 0;
-}
-
 .col-footer {
 	background-color: #454545;
 }
