@@ -170,5 +170,9 @@ div.province-drop-container {
 label {
 	width: 224px;
 	display: inline-block;
-	text-align: right;
+	text-align: center;
+}
+
+button {
+	
 }
