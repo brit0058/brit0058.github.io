@@ -196,6 +196,7 @@ button {
 aside#profile-info {
 	float: right;
 	margin: 1.5% 3.5% 0 0;
+	clear: both;
 
 }
 
@@ -250,4 +251,8 @@ span {
 .twitter {
 	color: #55acee;
 
+}
+
+.evelope {
+	color: black;
 }
