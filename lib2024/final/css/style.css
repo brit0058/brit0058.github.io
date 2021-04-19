@@ -201,7 +201,12 @@ aside#profile-info {
 
 }
 
-
+h2 {
+	color: #72a9ae;
+	font-family:"Bitter", serif;
+	font-size: 15px;
+	height: 30px;
+}
 
 
 
