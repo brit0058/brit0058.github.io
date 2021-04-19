@@ -242,19 +242,17 @@ h3 {
 }
 
 .facebook {
-	width: 16px;
-	height: 16px;
 	color: #3b5999;
+	background-color: white;
 }
 
 .youtube {
-	width: 16px;
-	height: 16px;
+
 	color: #cd201f;
+	background-color: white;
 }
 
 .twitter {
-	width: 16px;
-	height: 16px;
 	color: #55acee;
+
 }
