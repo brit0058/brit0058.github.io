@@ -190,6 +190,7 @@ button {
 	text-align: center;
 	border: 1px;
 	background-color: white;
+	clear: both;
 }
 
 aside#profile-info {
