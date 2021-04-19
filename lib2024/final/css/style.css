@@ -235,9 +235,14 @@ h3 {
 	color: white;
 }
 
+
 .social-icons {
+	float: left;
+	display: inline-block;
+}
+
+.facebook {
 	width: 16px;
 	height: 16px;
-	border: none;
-	display: inline-block;
+	color: #3b5999;
 }
