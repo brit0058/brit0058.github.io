@@ -242,6 +242,7 @@ a.social-icons {
 
 .address {
 	width: 33.3%;
+	float: right;
 	margin-right: 30px;
 	color: white;
 }
