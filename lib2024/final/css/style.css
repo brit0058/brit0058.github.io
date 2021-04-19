@@ -251,5 +251,6 @@ a.quick-links {
 	width: 33.3%;
 	margin-top: 1.5%;
 	margin-right: 1.5%;
+	float: right;
 	color: white;
 }
