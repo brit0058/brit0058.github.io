@@ -155,11 +155,13 @@ tr.day-cells {
 
 .class-cells:nth-child(even) {
 	background-color: #efefef;
+	padding-top: 5px;
 	height: 30px;
 }
 
 .class-cells:nth-child(odd) {
 	background-color: none;
+	padding-top:5px;
 	height: 30px;
 }
 
