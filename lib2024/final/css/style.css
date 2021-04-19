@@ -187,7 +187,6 @@ button {
 .boxed {
 	width: 301px;
 	height: 200px;
-	padding-top: 50px;
 	text-align: center;
 	border: 1px;
 	background-color: white;
@@ -206,9 +205,6 @@ h2 {
 	height: 30px;
 }
 
-i.fa-facebook {
-	color: #3b5999;
-}
 
 footer {
 	background-color: #454545;
