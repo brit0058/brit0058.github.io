@@ -228,11 +228,10 @@ footer {
 .quick-links {
 	width: 33.3%;
 	margin-left: 30px;
-	color: white;
 	text-decoration: none;
 }
 
-a.quick-links {
+a.social-links {
 	color: white;
 	text-decoration: none;
 }
@@ -240,13 +239,11 @@ a.quick-links {
 
 .follow-us {
 	width: 20%;
-
 	color: white;
 }
 
 .address {
 	width: 20%;
-	
 	float: right;
 	color: white;
 }
