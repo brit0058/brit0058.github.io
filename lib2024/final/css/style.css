@@ -191,7 +191,7 @@ button {
 	text-align: center;
 	border: 1px;
 	background-color: white;
-	margin-bottom: 20%;
+	margin-bottom: 300px;
 }
 
 aside#profile-info {
@@ -221,7 +221,7 @@ footer {
 
 
 .col-footer {
-	width: 33%;
+	width: 30%;
 	z-index: 1;
 	display: inline-block;
 	margin: 0 1%;
