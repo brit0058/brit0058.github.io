@@ -191,18 +191,19 @@ button {
 	margin-bottom: 24%;
 	border: 1px;
 	background-color: white;
+	clear: both;
 }
 
 aside#profile-info {
 	float: right;
 	margin: 1.5% 3.5% 0 0;
-	clear: both;
 
 }
 
 .envelope {
 	color: #000000;
 }
+
 h2 {
 	color: #72a9ae;
 	font-family:"Bitter", serif;
