@@ -163,3 +163,11 @@ tr.day-cells {
 table, td, th {
 	border: 1px solid black;
 }
+
+div.province-drop-container {
+	width: 50%;
+}
+label {
+	width: 224px;
+	display: inline-block;
+}
