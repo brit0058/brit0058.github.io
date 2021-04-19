@@ -234,3 +234,10 @@ h3 {
 	font-family: "Bitter", serif;
 	color: white;
 }
+
+.social-icons {
+	width: 16px;
+	height: 16px;
+	border: none;
+	display: inline-block;
+}
