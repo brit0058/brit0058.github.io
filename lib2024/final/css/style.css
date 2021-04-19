@@ -187,9 +187,9 @@ button {
 }
 
 .boxed {
-	width: 150px;
-	height: 250px;
-	padding-top: 150px;
+	width: 100px;
+	height: 200px;
+	padding-top: 50px;
 	text-align: center;
 	border: 1px;
 	background-color: white;
