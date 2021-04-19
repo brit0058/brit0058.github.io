@@ -211,7 +211,7 @@ i.fa-facebook {
 }
 
 footer {
-	position: absolute;
+	position: relative;
 	background-color: #454545;
 	bottom: 0;
 	width: 100%;
