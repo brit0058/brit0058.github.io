@@ -186,6 +186,26 @@ button {
 	margin left: 440px;
 }
 
+.boxed {
+	width: 150px;
+	height: 250px;
+	padding-top: 150px;
+	text-align: center;
+	border: 1px;
+	background-color: white;
+}
+
+aside#profile-info {
+	float: right;
+	width: 40%;
+	margin: 1.5% 1.5% 0 0;
+
+}
+
+
+aside#profile-info {
+	width: 50%;
+}
 
 
 
