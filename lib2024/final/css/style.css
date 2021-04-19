@@ -222,7 +222,8 @@ footer {
 .col-footer {
 	width: 100%;
 	z-index: 1;
-	display: block;
+	display: inline-block;
+
 }
 
 .quick-links {
@@ -231,7 +232,6 @@ footer {
 	color: white;
 	text-decoration: none;
 }
-
 
 
 .follow-us {
