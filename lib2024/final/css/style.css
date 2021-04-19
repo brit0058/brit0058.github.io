@@ -222,7 +222,7 @@ footer {
 .col-footer {
 	width: 100%;
 	z-index: 1;
-	display: inline-block;
+	display: block;
 }
 
 .quick-links {
