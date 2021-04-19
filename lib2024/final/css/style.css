@@ -228,3 +228,9 @@ footer {
 	float: left;
 	color: white;
 }
+
+h3 {
+	font-size: 10px;
+	font-family: "Bitter", serif;
+	color: white;
+}
