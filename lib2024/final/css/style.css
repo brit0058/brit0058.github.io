@@ -167,11 +167,17 @@ table, td, th {
 div.province-drop-container {
 	width: 50%;
 	float: left;
+	margin: 1.5% 1.5%;
 }
+
+#form-elm {
+	text-align: left;
+}
+
 label {
 	width: 224px;
 	display: inline-block;
-	text-align: left;
+	text-align: center;
 
 }
 
