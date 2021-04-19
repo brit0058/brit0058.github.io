@@ -192,6 +192,7 @@ button {
 	border: 1px;
 	background-color: white;
 	clear: both;
+	display: inline-block;
 }
 
 aside#profile-info {
