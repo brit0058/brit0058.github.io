@@ -126,7 +126,6 @@ p.text-main {
 img {
 	float: right;
 	margin: 1.5% 1.5%;
-	width: 35%;
 
 }
 
@@ -196,7 +195,7 @@ button {
 
 aside#profile-info {
 	float: right;
-	margin: 1.5% 3.5% 25% 0;
+	margin: 1.5% 3.5% 0 0;
 
 }
 
@@ -232,7 +231,7 @@ footer {
 	text-decoration: none;
 }
 
-a.social-icons {
+a.quicklinks {
 	color: white;
 }
 
@@ -243,7 +242,6 @@ a.social-icons {
 
 .address {
 	width: 33.3%;
-	float: right;
 	margin-right: 30px;
 	color: white;
 }
