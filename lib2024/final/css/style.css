@@ -1,5 +1,5 @@
 @charset "utf-8";
-@import url("loader.css")
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -186,9 +186,8 @@ button {
 
 .boxed {
 	width: 400px;
-	height: 300px;
+	height: 200px;
 	text-align: center;
-	margin-bottom: 24%;
 	border: 1px;
 	background-color: white;
 	clear: both;
@@ -197,11 +196,8 @@ button {
 aside#profile-info {
 	float: right;
 	margin: 1.5% 3.5% 0 0;
+	clear: both;
 
-}
-
-.envelope {
-	color: #000000;
 }
 
 h2 {
@@ -257,17 +253,6 @@ span {
 
 }
 
-.glyphicon.spinning {
-    animation: spin 1s infinite linear;
-    -webkit-animation: spin2 1s infinite linear;
-}
-
-@keyframes spin {
-    from { transform: scale(1) rotate(0deg); }
-    to { transform: scale(1) rotate(360deg); }
-}
-
-@-webkit-keyframes spin2 {
-    from { -webkit-transform: rotate(0deg); }
-    to { -webkit-transform: rotate(360deg); }
+.evelope {
+	color: black;
 }
