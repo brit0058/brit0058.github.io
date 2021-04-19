@@ -166,13 +166,17 @@ table, td, th {
 
 div.province-drop-container {
 	width: 50%;
+	float: left;
 }
 label {
 	width: 224px;
 	display: inline-block;
-	text-align: center;
+	text-align: left;
+
 }
 
+
+
 button {
-	
+
 }
