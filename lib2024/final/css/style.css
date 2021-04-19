@@ -239,18 +239,18 @@ a.quick-links {
 
 .quick-links {
 	margin-top: 1.5%;
+	width: 20%;
 }
 
 .follow-us {
-	width: 33.3%;
-	margin-top: 1.5%;
+	width: 20%;
+
 	color: white;
 }
 
 .address {
-	width: 33.3%;
-	margin-top: 1.5%;
-	margin-right: 1.5%;
+	width: 20%;
+	
 	float: right;
 	color: white;
 }
