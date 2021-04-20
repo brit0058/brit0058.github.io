@@ -34,4 +34,7 @@ function showformValues(form){
 
 //I had some issues with the profile thing, keeping the John Doe info in, so I took it out. The results will still show though.
 
+	$(window).on("load",function(){
+          $(".loader-wrapper").fadeOut("slow");
+        });
 
