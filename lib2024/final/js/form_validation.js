@@ -11,6 +11,10 @@ function init() {
 
 }
 
+function submitButtonClick() {
+	showformValues(document.getElementById("form"));
+}
+
 function showformValues(form){
 
 	var formValues = $(form).serializeArray(); 
@@ -26,3 +30,4 @@ function showformValues(form){
 		}
 	})				
 }
+

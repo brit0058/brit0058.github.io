@@ -175,7 +175,6 @@ div.province-drop-container {
 
 }
 
-
 label {
 	width: 224px;
 	display: inline-block;
@@ -197,6 +196,10 @@ button {
 	margin-bottom: 24%;
 	background-color: white;
 	clear: both;
+}
+/* The box fell down at one point and I could not get it back up again. */
+.profiletext {
+	width: 182px;
 }
 
 aside#profile-info {
