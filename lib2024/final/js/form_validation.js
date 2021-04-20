@@ -25,12 +25,13 @@ function showformValues(form){
 		if (field.name == "email") {
 			$("#results").find("#" + field.name + "_result").attr("href", "mailto:" + field.value);
 		} else {
-			// Only change the text on text fields, not icons, as icons would be replaced by the text
+
 			$("#results").find("#" + field.name + "_result").text(field.value);
 		}
 
 	})
 }
 
+//I had some issues with the profile thing, keeping the John Doe info in, so I took it out. The results will still show though.
 
 
